@@ -1,42 +1,42 @@
-# Calculadora de Rendimento
+# Investment Calculator
 
-Uma simples calculadora de rendimento em HTML com JavaScript.
+A simple HTML and JavaScript investment calculator.
 
-## Descrição
+## Description
 
-Esta é uma calculadora de rendimento que permite aos usuários calcular o valor final com base em um valor inicial e um período de tempo em meses. O cálculo é realizado considerando uma taxa de juros fixa de 10%.
+This is an investment calculator that allows users to calculate the final amount based on an initial investment and a specified time period in months. The calculation is performed with a fixed interest rate of 10%.
 
-## Instruções de Uso
+## Usage Instructions
 
-1. Abra o arquivo `index.html` em um navegador da web.
-2. Insira o período desejado em meses no campo "Tempo".
-3. Insira o valor inicial no campo "Valor Inicial".
-4. Clique no botão "Calcular Rendimento" para obter o resultado.
-5. O resultado será exibido abaixo do botão, mostrando o valor final após o período especificado.
+1. Open the `index.html` file in a web browser.
+2. Enter the desired period in months in the "Time" field.
+3. Enter the initial amount in the "Initial Amount" field.
+4. Click the "Calculate Returns" button to get the result.
+5. The result will be displayed below the button, showing the final amount after the specified period.
 
-## Exemplo de Uso
+## Example Usage
 
-Suponha que você deseje calcular o rendimento de um investimento de R$ 1000,00 ao longo de 12 meses. Você preencheria o formulário da seguinte maneira:
+Suppose you want to calculate the returns of a $1000.00 investment over 12 months. You would fill out the form as follows:
 
-- Tempo (em meses): 12
-- Valor Inicial: 1000
+- Time (in months): 12
+- Initial Amount: 1000
 
-Clicaria no botão "Calcular Rendimento" e o resultado seria exibido.
+Click the "Calculate Returns" button, and the result will be displayed.
 
-## Observações
+## Notes
 
-- Certifique-se de preencher ambos os campos antes de clicar em "Calcular Rendimento". Caso contrário, um alerta será exibido.
-- A taxa de juros usada no cálculo é fixa em 10%.
-- Este é um exemplo educativo e pode ser personalizado conforme necessário.
+- Make sure to fill out both fields before clicking "Calculate Returns." Otherwise, an alert will be displayed.
+- The interest rate used in the calculation is fixed at 10%.
+- This is an educational example and can be customized as needed.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull para melhorar esta calculadora.
+Contributions are welcome! Feel free to open issues or send pull requests to improve this calculator.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo `LICENSE` para obter mais detalhes.
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
 
 ---
 
-**Nota:** Este é um exemplo fictício para fins educativos. Certifique-se de personalizar de acordo com as necessidades específicas do seu projeto.
+**Note:** This is a fictitious example for educational purposes. Be sure to customize it according to the specific needs of your project.
