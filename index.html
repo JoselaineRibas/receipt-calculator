@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Rendimento</title>
+</head>
+<body>
+  <h1>Calculadora de Rendimento</h1>
+
+  <label for="tempo">Tempo (em meses): </label>
+  <input type="number" id="tempo" placeholder="Insira o tempo em meses"><br>
+
+  <label for="valor-inicial">Valor Inicial: R$</label>
+  <input type="number" id="valor-inicial" placeholder="Insira o valor inicial"><br>
+
+  <button onclick="calcularRendimento()">Calcular Rendimento</button>
+
+  <h2>Resultado:</h2>
+  <p id="resultado"></p>
+
+  <script>
+    function calcularRendimento() {
+      // Obter os valores inseridos pelo usuário
+      var tempo = document.getElementById("tempo").value;
+      var valorInicial = document.getElementById("valor-inicial").value;
+
+      // Verificar se os valores são válidos
+      if (tempo === "" || valorInicial === "") {
+        alert("Por favor, preencha todos os campos.");
+        return;
+      }
+
+      // Calcular o rendimento com base na taxa de juros de 10%
+      var taxaJuros = 0.10;
+      var valorFinal = valorInicial * Math.pow(1 + taxaJuros, tempo);
+
+      // Exibir o resultado
+      document.getElementById("resultado").innerText = "O valor final após " + tempo + " meses será R$" + valorFinal.toFixed(2);
+    }
+  </script>
+</body>
+</html>
