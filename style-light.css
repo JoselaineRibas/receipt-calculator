@@ -52,3 +52,15 @@ button:hover {
     width: auto;
   }
 }
+
+#theme-toggle-button {
+  position: fixed;
+  top: 10px; /* Adjust as needed for vertical positioning */
+  right: 10px; /* Adjust as needed for horizontal positioning */
+  background-color: #fff;
+  color: #bd93f9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999; /* Ensure it appears above other elements */
+}
