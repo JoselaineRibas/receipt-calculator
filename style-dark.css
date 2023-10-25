@@ -1,0 +1,65 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff; /* Dark background */
+  color: #f8f8f2; /* Light text */
+}
+
+h1, h2 {
+  color: #bd93f9; /* Light text */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #000; /* Light text */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #44475a; /* Dark background */
+  color: #f8f8f2; /* Light text */
+  border: 1px solid #6272a4; /* Light border */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #7f47da; /* Light button background */
+  color: #f8f8f2; /* Light text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f1c73; /* Light button background on hover */
+}
+
+#resultado {
+  font-size: 18px;
+  color: #000; /* Light text */
+}
+
+@media (min-width: 600px) {
+  /* Estilos para telas maiores (a partir de 600px de largura) */
+  input {
+    width: auto;
+  }
+}
+
+#theme-toggle-button {
+  position: fixed;
+  top: 10px; /* Adjust as needed for vertical positioning */
+  right: 10px; /* Adjust as needed for horizontal positioning */
+  background-color: #bd93f9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999; /* Ensure it appears above other elements */
+}
